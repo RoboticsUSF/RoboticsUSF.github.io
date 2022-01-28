@@ -26,6 +26,41 @@ header{
   text-align: center;
 }
 
+.block{
+    padding: auto;
+    margin:5%;
+    width:20rem;
+    height:20rem;
+    background-color: floralwhite;
+    border-radius: 20%;
+}
+
+.block img {
+    display: inline-block;
+    width:15rem;
+    margin-top: top: 5%;
+    vertical-align: middle;
+    float: center;
+    width:  15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.block1, .block2{
+    display:inline-block;
+}
+
+.block figcaption{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #bbb;
+    padding: inherit;
+    margin:inherit;
+    text-align:center;
+}
+
 .item h2,h3 {
   font-family: 'Lato', sans-serif;
   font-weight: bolder;
@@ -70,3 +105,4 @@ p {
   font-style: italic;
   font-family: 'Lato', sans-serif;
 }
+
