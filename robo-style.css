@@ -33,13 +33,16 @@ header{
     background-color: floralwhite;
     border-radius: 20%;
     display: inline-block;
-    margin: 5px;
+    position: static;
+    margin: 10px;
+    padding: 5px;
 }
 
 .block img {
+    margin: auto;
+    padding: auto;
     display: inline-block;
     width:15rem;
-    margin-top: top: 5%;
     vertical-align: middle;
     float: center;
     width:  10rem;
@@ -60,6 +63,14 @@ header{
 
 .block:hover{
     background-color: #708090;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
 }
 
 /*Item Pages-------------------------------------------*/
@@ -103,11 +114,15 @@ th {
   font-weight: bold;
 }
 
-p {
+p{
   text-align: justify;
   font-family: Lato;
-  font-size: 16px;
+  font-size: 25px;
   color: #990000;
+}
+
+figcaption{
+    font-size-adjust: auto;
 }
 
 
