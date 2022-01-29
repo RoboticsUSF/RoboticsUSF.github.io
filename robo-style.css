@@ -74,6 +74,10 @@ a:visited{
 }
 
 /*Item Pages-------------------------------------------*/
+.logo:hover{
+    background-color:#009999;
+    text-decoration-color: #000;
+}
 
 h2,h3 {
   font-family: 'Lato', sans-serif;
